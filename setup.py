@@ -58,11 +58,11 @@ with open("README.md") as infile:
     long_description = infile.read()
 
 
-setup(name='pybluez2',
+setup(name='pybluez3',
     version=version,
     description='Bluetooth Python extension module',
-    author="airgproducts",
-    author_email="hello@airgproducts.com",
+    author="Tazkazz",
+    author_email="lukas@tazkazz.lt",
     ext_modules=ext_modules,
     packages=packages,
     python_requires=">=3.6",
@@ -76,7 +76,7 @@ setup(name='pybluez2',
                    'Programming Language :: Python :: 3.9',
                    'Programming Language :: Python :: 3 :: Only',
                    'Topic :: Communications'],
-    url="https://github.com/airgproducts/pybluez2",
+    url="https://github.com/Tazkazz/pybluez3",
     long_description=long_description,
     maintainer='airgproducts',
     license='GPL',
